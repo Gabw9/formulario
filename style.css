@@ -1,0 +1,72 @@
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e2e2e; /* Cor de fundo escura */
+    color: #f0f0f0; /* Cor do texto clara */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da visualização */
+}
+
+/* Estilizando o fieldset */
+fieldset {
+    border: 2px solid #444; /* Borda escura */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px; /* Espaço interno */
+    background-color: #333; /* Cor de fundo escura */
+    width: 100%;
+    max-width: 400px; /* Largura máxima */
+}
+
+/* Estilizando o legend */
+legend {
+    font-size: 1.5em; /* Tamanho da fonte */
+    color: #ddd; /* Cor clara */
+    padding: 0 10px; /* Espaço horizontal */
+    border-bottom: 2px solid #444; /* Linha abaixo do legend */
+    margin-bottom: 10px; /* Espaço abaixo do legend */
+}
+
+/* Estilizando os rótulos (labels) */
+label {
+    display: block;
+    margin-bottom: 5px; /* Espaço abaixo dos rótulos */
+    color: #ddd; /* Cor clara */
+}
+
+/* Estilizando os campos de entrada (inputs) */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 22px); /* Largura menos padding e border */
+    padding: 10px; /* Espaço interno */
+    border: 1px solid #555; /* Borda escura */
+    border-radius: 4px; /* Bordas arredondadas */
+    background-color: #222; /* Cor de fundo dos campos */
+    color: #eee; /* Cor do texto */
+    margin-bottom: 10px; /* Espaço abaixo dos campos */
+}
+
+/* Estilizando o botão de envio */
+input[type="submit"] {
+    background-color: #2b6f00; /* Cor de fundo do botão */
+    border: none; /* Remove a borda padrão */
+    color: #eee; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaço interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-size: 1em; /* Tamanho da fonte */
+}
+
+input[type="submit"]:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilizando a mensagem de erro */
+#error-message {
+    color: #ff4d4d; /* Cor da mensagem de erro */
+    font-size: 1em; /* Tamanho da fonte */
+}
